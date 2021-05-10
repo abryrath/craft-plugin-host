@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  2de97530-4c25-4cb1-85e0-3b5b3a4e435e: # Dev Craft Plugin Host
+    enabledByDefault: true
+    hasUrls: true
+    template: home/_entry
+    uriFormat: __home__
+type: single

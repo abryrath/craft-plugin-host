@@ -1,8 +1,0 @@
-baseUrl: $PRIMARY_SITE_URL
-handle: default
-hasUrls: true
-language: en-US
-name: 'Dev Craft Plugin Host'
-primary: true
-siteGroup: 890777e8-ca86-433b-995d-19e57cadb31c # Dev Craft Plugin Host
-sortOrder: 1

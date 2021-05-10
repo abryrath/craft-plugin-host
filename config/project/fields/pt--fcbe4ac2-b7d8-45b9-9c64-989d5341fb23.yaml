@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 8193fff4-3037-43f6-8cba-debf3e55168e # Common
+handle: pt
+instructions: ''
+name: 'Plain Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
