@@ -1,1 +1,6 @@
-dateModified: 1620659501
+dateModified: 1620659582
+plugins:
+  sync-db:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.2.0
