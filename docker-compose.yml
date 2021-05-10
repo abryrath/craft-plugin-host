@@ -1,0 +1,55 @@
+version: "3.7"
+
+# Site Directory
+# ~/Union/Sites/craft-plugin-host.com
+
+services:
+  php-fpm:
+    image: craftcms/php-fpm:7.4
+    volumes:
+      - ~/Union/Sites/craft-plugin-host.com:/app
+    env_file: ~/Union/Sites/craft-plugin-host.com/.env
+    environment:
+      PHP_OPCACHE_ENABLE: 0
+  nginx:
+    image: nginx:stable-alpine
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx/domain.com.conf:/etc/nginx/conf.d/default.conf
+      - ~/Union/Sites/craft-plugin-host.com:/app
+    env_file: ~/Union/Sites/craft-plugin-host.com/.env
+  console:
+    image: craftcms/cli:7.4
+    volumes:
+      - ~/Union/Sites/craft-plugin-host.com:/app
+    env_file: ~/Union/Sites/craft-plugin-host.com/.env
+    depends_on:
+      - postgres
+    command: ["./cms/craft", "queue/listen"]
+    environment:
+      PHP_OPCACHE_ENABLE: 0
+  # mysql:
+  #   image: mysql:5.7
+  #   ports:
+  #     - 3336:3306
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: secret
+  #     MYSQL_DATABASE: dev_craft_plugin_host
+  #     MYSQL_USER: docker
+  #     MYSQL_PASSWORD: secret
+  #   volumes:
+  #     - union_db:/var/lib/mysql
+  postgres:
+    image: postgres:alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: dev_craft_plugin_host
+      POSTGRES_USER: docker
+    volumes:
+      - postgres_db:/var/lib/postgresql/data
+
+volumes:
+  postgres_db:
