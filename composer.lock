@@ -539,16 +539,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.6.13",
+            "version": "3.6.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "ba3b1e704194e7e6a056595d0d9cededc7e9b9c3"
+                "reference": "bfe9a55f217fac0a9f208c2196e1ffba4cacd98c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/ba3b1e704194e7e6a056595d0d9cededc7e9b9c3",
-                "reference": "ba3b1e704194e7e6a056595d0d9cededc7e9b9c3",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/bfe9a55f217fac0a9f208c2196e1ffba4cacd98c",
+                "reference": "bfe9a55f217fac0a9f208c2196e1ffba4cacd98c",
                 "shasum": ""
             },
             "require": {
@@ -582,9 +582,9 @@
                 "voku/stringy": "^6.4.0",
                 "webonyx/graphql-php": "~14.4.1",
                 "yii2tech/ar-softdelete": "^1.0.4",
-                "yiisoft/yii2": "~2.0.41.1",
+                "yiisoft/yii2": "~2.0.42.1",
                 "yiisoft/yii2-debug": "^2.1.16",
-                "yiisoft/yii2-queue": "~2.3.1",
+                "yiisoft/yii2-queue": "~2.3.2",
                 "yiisoft/yii2-swiftmailer": "^2.1.2"
             },
             "conflict": {
@@ -638,7 +638,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2021-05-04T16:40:11+00:00"
+            "time": "2021-05-11T17:25:59+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -4505,16 +4505,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.14.4",
+            "version": "v2.14.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "0b4ba691fb99ec7952d25deb36c0a83061b93bbf"
+                "reference": "c9dd15b3a80725bc4919730fae462bddcc960820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/0b4ba691fb99ec7952d25deb36c0a83061b93bbf",
-                "reference": "0b4ba691fb99ec7952d25deb36c0a83061b93bbf",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c9dd15b3a80725bc4919730fae462bddcc960820",
+                "reference": "c9dd15b3a80725bc4919730fae462bddcc960820",
                 "shasum": ""
             },
             "require": {
@@ -4568,7 +4568,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v2.14.4"
+                "source": "https://github.com/twigphp/Twig/tree/v2.14.5"
             },
             "funding": [
                 {
@@ -4580,7 +4580,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-10T10:05:55+00:00"
+            "time": "2021-05-12T08:02:35+00:00"
         },
         {
             "name": "unionco/craft-sync-db",
@@ -4588,12 +4588,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unionco/craft-sync-db.git",
-                "reference": "c4fd361caca70a74392c15f976a30500cd2e6271"
+                "reference": "5a73c8e94b1d78187cb0297984c96d76499844bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unionco/craft-sync-db/zipball/c4fd361caca70a74392c15f976a30500cd2e6271",
-                "reference": "c4fd361caca70a74392c15f976a30500cd2e6271",
+                "url": "https://api.github.com/repos/unionco/craft-sync-db/zipball/5a73c8e94b1d78187cb0297984c96d76499844bd",
+                "reference": "5a73c8e94b1d78187cb0297984c96d76499844bd",
                 "shasum": ""
             },
             "require": {
@@ -4644,7 +4644,7 @@
                 "issues": "https://github.com/unionco/craft-sync-db",
                 "source": "https://github.com/unionco/craft-sync-db/tree/feature/refactor"
             },
-            "time": "2021-05-10T13:28:45+00:00"
+            "time": "2021-05-15T13:07:53+00:00"
         },
         {
             "name": "unionco/syncdb",
@@ -4652,12 +4652,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unionco/syncdb.git",
-                "reference": "cd0f56f1c8046e37f77c201fa0a0265c96243591"
+                "reference": "5288f0c4496a8e1eab41bfcf930eb59cf6e26da7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unionco/syncdb/zipball/cd0f56f1c8046e37f77c201fa0a0265c96243591",
-                "reference": "cd0f56f1c8046e37f77c201fa0a0265c96243591",
+                "url": "https://api.github.com/repos/unionco/syncdb/zipball/5288f0c4496a8e1eab41bfcf930eb59cf6e26da7",
+                "reference": "5288f0c4496a8e1eab41bfcf930eb59cf6e26da7",
                 "shasum": ""
             },
             "require": {
@@ -4694,7 +4694,7 @@
                 "issues": "https://github.com/unionco/syncdb/issues",
                 "source": "https://github.com/unionco/syncdb/tree/feature/refactor"
             },
-            "time": "2021-05-10T13:26:57+00:00"
+            "time": "2021-05-16T13:54:50+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -5579,16 +5579,16 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.41.1",
+            "version": "2.0.42.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "2ad0894a2ccbd3912b33de4419ad1ae3df0595c4"
+                "reference": "976e2e892af4df933831b5e0a05d0acf4b173d98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/2ad0894a2ccbd3912b33de4419ad1ae3df0595c4",
-                "reference": "2ad0894a2ccbd3912b33de4419ad1ae3df0595c4",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/976e2e892af4df933831b5e0a05d0acf4b173d98",
+                "reference": "976e2e892af4df933831b5e0a05d0acf4b173d98",
                 "shasum": ""
             },
             "require": {
@@ -5696,7 +5696,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-04T15:45:04+00:00"
+            "time": "2021-05-06T11:44:35+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",

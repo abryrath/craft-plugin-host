@@ -1,6 +1,22 @@
-dateModified: 1620659582
+dateModified: 1620660241
+email:
+  fromEmail: abry.rath@union.co
+  fromName: 'Craft Plugin Host'
+  transportType: craft\mail\transportadapters\Sendmail
 plugins:
   sync-db:
     edition: standard
     enabled: true
     schemaVersion: 1.2.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Plugin Host'
+  schemaVersion: 3.6.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
