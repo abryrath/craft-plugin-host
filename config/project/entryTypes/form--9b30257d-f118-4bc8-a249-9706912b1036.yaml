@@ -1,0 +1,38 @@
+fieldLayouts:
+  81381609-cfdc-4f5f-81d0-77a188a2d748:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: form
+hasTitleField: true
+name: Form
+section: 9937c48e-b58d-425f-bacc-14179751399c # Pages
+sortOrder: 5
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

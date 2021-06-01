@@ -1,0 +1,40 @@
+fieldLayouts:
+  791381eb-a7eb-460c-92df-b148547d091a:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: newsCategories
+name: 'News Categories'
+siteSettings:
+  0139fe08-9bdc-4427-b14d-4a332513e3df: # Craft Plugin Host
+    hasUrls: true
+    template: null
+    uriFormat: 'news-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: 701929c5-df03-45bb-89ed-470bbb204501

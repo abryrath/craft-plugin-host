@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: pages
+name: Pages
+propagationMethod: all
+siteSettings:
+  0139fe08-9bdc-4427-b14d-4a332513e3df: # Craft Plugin Host
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_entry
+    uriFormat: 'pages/{slug}'
+structure:
+  maxLevels: null
+  uid: 668b7c76-d9fb-4d54-8839-bf1556173f64
+type: structure

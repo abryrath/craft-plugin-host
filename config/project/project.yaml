@@ -1,9 +1,13 @@
-dateModified: 1620660241
+dateModified: 1622204339
 email:
   fromEmail: abry.rath@union.co
   fromName: 'Craft Plugin Host'
   transportType: craft\mail\transportadapters\Sendmail
 plugins:
+  query-builder-field:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.1.0
   sync-db:
     edition: standard
     enabled: true

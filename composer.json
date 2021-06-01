@@ -1,8 +1,9 @@
 {
   "require": {
     "craftcms/cms": "^3.6.4",
-    "vlucas/phpdotenv": "^3.4.0",
-    "unionco/craft-sync-db": "dev-feature/refactor as 0.9.0"
+    "unionco/craft-query-builder-field": "@dev",
+    "unionco/craft-sync-db": "dev-feature/refactor as 0.9.0",
+    "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"
@@ -25,5 +26,11 @@
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
     ]
-  }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "/plugins/craft-query-builder-field"
+    }
+  ]
 }

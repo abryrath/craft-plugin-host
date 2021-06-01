@@ -8,13 +8,14 @@ services:
     image: craftcms/php-fpm:7.4
     volumes:
       - ~/Union/Sites/craft-plugin-host.com:/app
+      - ~/Union/Plugins/craft-query-builder-field:/plugins/craft-query-builder-field
     env_file: ~/Union/Sites/craft-plugin-host.com/.env
     environment:
       PHP_OPCACHE_ENABLE: 0
   nginx:
     image: nginx:stable-alpine
     ports:
-      - 8091:80
+      - 80:80
     volumes:
       - ./nginx/domain.com.conf:/etc/nginx/conf.d/default.conf
       - ~/Union/Sites/craft-plugin-host.com:/app
@@ -27,6 +28,7 @@ services:
         - PROJECT_TYPE=cli
     volumes:
       - ~/Union/Sites/craft-plugin-host.com:/app
+      - ~/Union/Plugins/craft-query-builder-field:/plugins/craft-query-builder-field
       - ~/.ssh/id_rsa:/home/www-data/.ssh/id_rsa
     env_file: ~/Union/Sites/craft-plugin-host.com/.env
     depends_on:
@@ -46,6 +48,16 @@ services:
       MYSQL_PASSWORD: secret
     volumes:
       - union_db:/var/lib/mysql
+  vite:
+    build:
+      context: ./docker/vite
+    volumes:
+      - ~/Union/Plugins/craft-query-builder-field:/app
+    ports:
+      - 8000:3001
+    command: ["npm", "run", "dev"]
+      # ["pwd"]
+      #
   # postgres:
   #   image: postgres:alpine
   #   ports:
